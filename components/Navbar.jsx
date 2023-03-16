@@ -18,7 +18,7 @@ const Navbar = () => (
 				className="object-contain"
 			/>
 			<h2 className="font-extrabold text-[24px] leading-[30px] text-white">
-				METAVERSE MADNESS
+				METAVERSUS
 			</h2>
 		</div>
 	</motion.nav>
