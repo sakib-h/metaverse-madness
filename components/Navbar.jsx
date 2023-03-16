@@ -17,7 +17,9 @@ const Navbar = () => (
 				height={24}
 				className="object-contain"
 			/>
-			<h2>METAVERSE MADNESS</h2>
+			<h2 className="font-extrabold text-[24px] leading-[30px] text-white">
+				METAVERSE MADNESS
+			</h2>
 		</div>
 	</motion.nav>
 );
