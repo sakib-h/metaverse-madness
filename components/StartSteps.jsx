@@ -1,5 +1,7 @@
-const StartSteps = () => {
-	return <div>StartSteps</div>;
-};
+const StartSteps = () => (
+  <div>
+    start steps
+  </div>
+);
 
 export default StartSteps;

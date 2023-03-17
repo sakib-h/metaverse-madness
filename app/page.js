@@ -1,13 +1,13 @@
-import {Footer, Navbar} from "../components";
+import { Footer, Navbar } from "../components";
 import {
+  Hero,
 	About,
 	Explore,
 	Feedback,
 	GetStarted,
-	Hero,
 	Insights,
 	WhatsNew,
-	World
+	World,
 } from "../sections";
 
 const Page = () => (

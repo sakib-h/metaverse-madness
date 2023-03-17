@@ -1,5 +1,7 @@
-const NewFeatures = () => {
-	return <div>NewFeatures</div>;
-};
+const NewFeatures = () => (
+  <div>
+    New Features
+  </div>
+);
 
 export default NewFeatures;
