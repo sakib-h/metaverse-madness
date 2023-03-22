@@ -34,6 +34,7 @@ const Explore = () => {
 						<ExploreCard
 							key={world.id}
 							{...world}
+							index={index}
 							active={active}
 							handleClick={setActive}
 						/>
