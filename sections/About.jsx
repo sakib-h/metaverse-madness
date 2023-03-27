@@ -10,9 +10,12 @@ const About = () => (
 			variants={staggerContainer}
 			initial="hidden"
 			whileInView="show"
-			vireport={{ once: false, amount: 0.25 }}
+			viewport={{ once: 'false', amount: 0.25 }}
 			className="lg:w-[80%] w-[100%] mx-auto flex justify-center items-center flex-col">
-			<TypingText title="| About Metaversus" textStyles="text-center" />
+			<TypingText
+				title="| About Metaversus"
+				textStyles="text-center"
+			/>
 
 			<motion.p
 				variants={fadeIn('up', 'tween', 0.2, 1)}
